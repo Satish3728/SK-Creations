@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(nature.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 05%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    /* position: relative; */
+    margin-bottom: 05px;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo
+{
+    width: 250px;
+    cursor: pointer;
+    margin: -45px;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 25px;
+}
+
+nav ul li a{
+    background: linear-gradient(75deg, #396ecf, #52e94d);
+    border-radius: 6px;
+    padding: 08px 12px;
+    text-decoration: none;
+    color: #cfe7e6;
+    font-size: larger;
+    
+}
+.content
+{
+margin-top: 60px;
+padding-left: 110px;
+}
+
+.content h1
+{
+    font-size: 60px;
+    font-weight: 100;
+    margin-left: 35px;
+    margin-top: 25px;   
+    color: #98fd24 ;
+    /* animation:ani 2s infinite alternate-reverse ; */
+    
+   
+}
+/* @keyframes ani{
+    0%{
+        transform:translateX(00px)
+        
+    }
+    100% {
+        transform:translateY(150px)
+        
+    }
+} */
+
+.content h2 {
+    font-size: 32px;
+    font-weight: 01;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fc0e0e;
+    text-transform: capitalize;
+}
+.content h3 {
+    font-size: 23px;
+    font-weight: 01;
+    margin-left: 40px;
+    color: #590696;
+    
+}
+
+.link
+{
+    padding-top: 225px;
+    padding-left: 05px;
+}
+.link a{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #035157;
+    box-shadow: 15px 15px 22px rgba(97, 28, 69, 0, 14);
+    font-size: large;   
+}
+
+
+.Portfolio
+{
+    display: flex;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -08vh;
+}
+.Portfolio .linkedin{
+    margin-right: 40px;
+}
+
+.container2
+{   
+    width: 100%;
+    background-image:url(waterfalls.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 200vh;
+    box-sizing: border-box;
+    position: relative;
+    height: 200vh;
+    
+}
+
+
+ .container2 .gallery {  
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 01px;
+    
+    transform: translateY(-200vh);  
+}
+
+.container2 .gallery-item {
+    margin: 15px;
+    
+}
+
+.gallery-item img {
+  width: 210px;
+  height: 210px;
+}
